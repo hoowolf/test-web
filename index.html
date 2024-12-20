@@ -18,6 +18,10 @@
             margin: 0 auto;
             padding: 0 1rem;
         }
+        .container1 {
+            display: flex;
+            align-items: center; /* 垂直居中对齐 */
+        } 
         nav {
             display: flex;
             justify-content: space-between;
@@ -26,6 +30,9 @@
         }
         .nav-links {
             display: none;
+        }
+        .github-icon {
+            margin-right: 10px;
         }
         .nav-button {
             background: transparent;
@@ -91,7 +98,7 @@
                 font-size: 5rem;
             }
             .grid {
-                grid-template-columns: repeat(2, 1fr);
+                grid-template-columns: repeat(3, 1fr);
                 padding: 0 3rem;
             }
             .grid-item {
@@ -112,12 +119,17 @@
                 </svg>
             </div>
             <div class="nav-links">
-                <a href="#" style="color: white; text-decoration: none;">LORENT</a>
-                <a href="#" style="color: white; text-decoration: none;">ACMES</a>
-                <a href="#" style="color: white; text-decoration: none;">TRUEICT</a>
-                <a href="#" style="color: white; text-decoration: none;">COCUCT</a>
+                <a href="#" style="color: white; text-decoration: none;">博客</a>
+                <a href="#" style="color: white; text-decoration: none;">文档</a>
+                <a href="#" style="color: white; text-decoration: none;">社区</a>
+                <a href="#" style="color: white; text-decoration: none;">Q&A</a>
             </div>
-            <button class="nav-button">打赏</button>
+            <div class="container1">
+                <a href="https://github.com/hoowolf/LLM-Board" style="color: white; text-decoration: none;" target="_blank"> 
+                    <img src="source\github-mark-white.png" alt="github" width="32" height="32" class="github-icon">
+                </a>
+                <button class="nav-button">打赏</button>
+            </div>
         </nav>
 
         <div class="hero-content">
@@ -128,18 +140,26 @@
             </h1>
 
             <div class="grid">
+                <div class="grid-item" id="gridItemLink">
+                    <h2>
+                        中国开源大模型
+                        <br>
+                        全景图
+                    </h2>
+                </div>
+                <script>
+                    document.getElementById('gridItemLink').addEventListener('click', function() {
+                        window.location.href = './echarts/graph.html';
+                    });
+                </script>
                 <div class="grid-item">
                     <h2>
-                        Learn about
-                        <br>
-                        open source products
+                        能力比较
                     </h2>
                 </div>
                 <div class="grid-item">
                     <h2>
-                        Explore the world
-                        <br>
-                        of open source
+                        开源社区
                     </h2>
                 </div>
             </div>
