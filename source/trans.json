@@ -1,0 +1,457 @@
+{
+    "nodes": [
+      {
+        "id": "1",
+        "label": "阿里巴巴",
+        "group": 1,
+        "size": 10
+      },
+      {
+        "id": "101",
+        "label": "Qwen",
+        "group": 1,
+        "size": 5
+      },
+      {
+        "id": "102",
+        "label": "Qwen-VL",
+        "group": 1,
+        "size": 5
+      },
+      {
+        "id": "103",
+        "label": "Qwen-Audio",
+        "group": 1,
+        "size": 5
+      },
+      {
+        "id": "104",
+        "label": "Qwen-Coder",
+        "group": 1,
+        "size": 5
+      },
+      {
+        "id": "105",
+        "label": "Qwen-Math",
+        "group": 1,
+        "size": 5
+      },
+      {
+        "id": "106",
+        "label": "QwQ",
+        "group": 1,
+        "size": 5
+      },
+      {
+        "id": "2",
+        "label": "智谱AI",
+        "group": 2,
+        "size": 10
+      },
+      {
+        "id": "201",
+        "label": "ChatGLM4",
+        "group": 2,
+        "size": 5
+      },
+      {
+        "id": "201",
+        "label": "CogVideo",
+        "group": 2,
+        "size": 5
+      },
+      {
+        "id": "203",
+        "label": "CodeGeeX4",
+        "group": 2,
+        "size": 5
+      },
+      {
+        "id": "204",
+        "label": "CogVLM2",
+        "group": 2,
+        "size": 5
+      },
+      {
+        "id": "205",
+        "label": "GLM-Edge",
+        "group": 2,
+        "size": 5
+      },
+      {
+        "id": "3",
+        "label": "BAAI",
+        "group": 3,
+        "size": 10
+      },
+      {
+        "id": "301",
+        "label": "Emu3",
+        "group": 3,
+        "size": 5
+      },
+      {
+        "id": "302",
+        "label": "BGE",
+        "group": 3,
+        "size": 5
+      },
+      {
+        "id": "303",
+        "label": "CCI",
+        "group": 3,
+        "size": 5
+      },
+      {
+        "id": "304",
+        "label": "Aquila",
+        "group": 3,
+        "size": 5
+      },
+      {
+        "id": "305",
+        "label": "Infinity MM",
+        "group": 3,
+        "size": 5
+      },
+      {
+        "id": "306",
+        "label": "Infinity Instruct",
+        "group": 3,
+        "size": 5
+      },
+      {
+        "id": "4",
+        "label": "OpenLMLab",
+        "group": 4,
+        "size": 10
+      },
+      {
+        "id": "401",
+        "label": "MOSS",
+        "group": 4,
+        "size": 5
+      },
+      {
+        "id": "5",
+        "label": "面壁智能",
+        "group": 5,
+        "size": 10
+      },
+      {
+        "id": "501",
+        "label": "MiniCPM",
+        "group": 5,
+        "size": 5
+      },
+      {
+        "id": "502",
+        "label": "CPM-Bee",
+        "group": 5,
+        "size": 5
+      },
+      {
+        "id": "503",
+        "label": "MiniCPM-V",
+        "group": 5,
+        "size": 5
+      },
+      {
+        "id": "504",
+        "label": "Ultra Series",
+        "group": 5,
+        "size": 5
+      },
+      {
+        "id": "505",
+        "label": "Eurus",
+        "group": 5,
+        "size": 5
+      },
+      {
+        "id": "6",
+        "label": "上海ALab",
+        "group": 6,
+        "size": 10
+      },
+      {
+        "id": "601",
+        "label": "InternLM",
+        "group": 6,
+        "size": 5
+      },
+      {
+        "id": "602",
+        "label": "InternVL",
+        "group": 6,
+        "size": 5
+      },
+      {
+        "id": "603",
+        "label": "InternImage",
+        "group": 6,
+        "size": 5
+      },
+      {
+        "id": "604",
+        "label": "InternVideo",
+        "group": 6,
+        "size": 5
+      },
+      {
+        "id": "605",
+        "label": "VideoChat",
+        "group": 6,
+        "size": 5
+      },
+      {
+        "id": "7",
+        "label": "百川智能",
+        "group": 7,
+        "size": 10
+      },
+      {
+        "id": "701",
+        "label": "Baichuan",
+        "group": 7,
+        "size": 5
+      },
+      {
+        "id": "8",
+        "label": "IDEA研究院",
+        "group": 8,
+        "size": 10
+      },
+      {
+        "id": "801",
+        "label": "姜子牙",
+        "group": 8,
+        "size": 5
+      },
+      {
+        "id": "802",
+        "label": "二郎神",
+        "group": 8,
+        "size": 5
+      },
+      {
+        "id": "803",
+        "label": "太乙",
+        "group": 8,
+        "size": 5
+      },
+      {
+        "id": "9",
+        "label": "元象科技",
+        "group": 9,
+        "size": 10
+      },
+      {
+        "id": "901",
+        "label": "XVERSE",
+        "group": 9,
+        "size": 5
+      },
+      {
+        "id": "10",
+        "label": "零一万物",
+        "group": 10,
+        "size": 10
+      },
+      {
+        "id": "1001",
+        "label": "YI",
+        "group": 10,
+        "size": 5
+      },
+      {
+        "id": "11",
+        "label": "昆仑万维",
+        "group": 11,
+        "size": 10
+      },
+      {
+        "id": "1101",
+        "label": "Skywork",
+        "group": 11,
+        "size": 5
+      }
+    ],
+    "links": [
+      {
+        "source": "1",
+        "target": "101",
+        "weight": 1
+      },
+      {
+        "source": "1",
+        "target": "102",
+        "weight": 1
+      },
+      {
+        "source": "1",
+        "target": "103",
+        "weight": 1
+      },
+      {
+        "source": "1",
+        "target": "104",
+        "weight": 1
+      },
+      {
+        "source": "1",
+        "target": "105",
+        "weight": 1
+      },
+      {
+        "source": "1",
+        "target": "106",
+        "weight": 1
+      },
+      {
+        "source": "2",
+        "target": "201",
+        "weight": 1
+      },
+      {
+        "source": "2",
+        "target": "202",
+        "weight": 1
+      },
+      {
+        "source": "2",
+        "target": "203",
+        "weight": 1
+      },
+      {
+        "source": "2",
+        "target": "204",
+        "weight": 1
+      },
+      {
+        "source": "2",
+        "target": "205",
+        "weight": 1
+      },
+      {
+        "source": "3",
+        "target": "301",
+        "weight": 1
+      },
+      {
+        "source": "3",
+        "target": "302",
+        "weight": 1
+      },
+      {
+        "source": "3",
+        "target": "303",
+        "weight": 1
+      },
+      {
+        "source": "3",
+        "target": "304",
+        "weight": 1
+      },
+      {
+        "source": "3",
+        "target": "305",
+        "weight": 1
+      },
+      {
+        "source": "3",
+        "target": "306",
+        "weight": 1
+      },
+      {
+        "source": "4",
+        "target": "401",
+        "weight": 1
+      },
+      {
+        "source": "5",
+        "target": "501",
+        "weight": 1
+      },
+      {
+        "source": "5",
+        "target": "502",
+        "weight": 1
+      },
+      {
+        "source": "5",
+        "target": "503",
+        "weight": 1
+      },
+      {
+        "source": "5",
+        "target": "504",
+        "weight": 1
+      },
+      {
+        "source": "5",
+        "target": "505",
+        "weight": 1
+      },
+      {
+        "source": "6",
+        "target": "601",
+        "weight": 1
+      },
+      {
+        "source": "6",
+        "target": "602",
+        "weight": 1
+      },
+      {
+        "source": "6",
+        "target": "603",
+        "weight": 1
+      },
+      {
+        "source": "6",
+        "target": "604",
+        "weight": 1
+      },
+      {
+        "source": "6",
+        "target": "605",
+        "weight": 1
+      },
+      {
+        "source": "7",
+        "target": "701",
+        "weight": 1
+      },
+      {
+        "source": "8",
+        "target": "801",
+        "weight": 1
+      },
+      {
+        "source": "8",
+        "target": "802",
+        "weight": 1
+      },
+      {
+        "source": "8",
+        "target": "803",
+        "weight": 1
+      },
+      {
+        "source": "9",
+        "target": "901",
+        "weight": 1
+      },
+      {
+        "source": "10",
+        "target": "1001",
+        "weight": 1
+      },
+      {
+        "source": "11",
+        "target": "1101",
+        "weight": 1
+      }
+    ]
+}
