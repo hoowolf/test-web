@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Open CN LLM Board</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #0A0B14;
+            color: white;
+            min-height: 100vh;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 1rem;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem;
+        }
+        .nav-links {
+            display: none;
+        }
+        .nav-button {
+            background: transparent;
+            border: 1px solid white;
+            color: white;
+            padding: 0.5rem 1rem;
+            cursor: pointer;
+        }
+        .nav-button:hover {
+            background: white;
+            color: #0A0B14;
+        }
+        .hero-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            min-height: calc(100vh - 80px);
+            padding: 3rem 0;
+        }
+        h1 {
+            font-size: 3rem;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+        .grid {
+            display: grid;
+            gap: 2rem;
+            width: 100%;
+            padding: 0 1rem;
+        }
+        .grid-item {
+            background-color: #1A1B23;
+            padding: 1.5rem;
+            border-radius: 0.5rem;
+        }
+        h2 {
+            font-size: 2rem;
+            font-weight: bold;
+            margin: 0;
+        }
+        .powered-by {
+            text-align: center;
+            margin-top: 6rem;
+        }
+        .powered-by p:first-child {
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 0.5rem;
+        }
+        .powered-by p:last-child {
+            font-size: 1.25rem;
+            font-weight: bold;
+        }
+
+        @media (min-width: 768px) {
+            .nav-links {
+                display: flex;
+                gap: 2rem;
+            }
+            h1 {
+                font-size: 5rem;
+            }
+            .grid {
+                grid-template-columns: repeat(2, 1fr);
+                padding: 0 3rem;
+            }
+            .grid-item {
+                padding: 2rem;
+            }
+            h2 {
+                font-size: 2.25rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <div>
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="32" height="32">
+                    <path d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+            </div>
+            <div class="nav-links">
+                <a href="#" style="color: white; text-decoration: none;">LORENT</a>
+                <a href="#" style="color: white; text-decoration: none;">ACMES</a>
+                <a href="#" style="color: white; text-decoration: none;">TRUEICT</a>
+                <a href="#" style="color: white; text-decoration: none;">COCUCT</a>
+            </div>
+            <button class="nav-button">打赏</button>
+        </nav>
+
+        <div class="hero-content">
+            <h1>
+                OPEN CN LLM
+                <br>
+                BOARD
+            </h1>
+
+            <div class="grid">
+                <div class="grid-item">
+                    <h2>
+                        Learn about
+                        <br>
+                        open source products
+                    </h2>
+                </div>
+                <div class="grid-item">
+                    <h2>
+                        Explore the world
+                        <br>
+                        of open source
+                    </h2>
+                </div>
+            </div>
+
+            <div class="powered-by">
+                <p>POWERED BY</p>
+                <p>SUPER BANANA</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
